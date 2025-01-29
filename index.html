@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prabhat Shrestha - Resume</title>
+  <style>
+    /* Global Styling */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      margin-bottom: 15px;
+      border: 4px solid #fff;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+      font-weight: 600;
+    }
+
+    header p {
+      font-size: 18px;
+      font-weight: 400;
+      color: #eaeaea;
+    }
+
+    nav {
+      background-color: #343a40;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+    }
+
+    nav a:hover {
+      color: #007BFF;
+      text-decoration: underline;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #007BFF;
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    p, ul {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .experience ul li::before {
+      content: "• ";
+      color: #007BFF;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 15px 20px;
+      position: relative;
+    }
+
+    footer a {
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 768px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      nav a {
+        font-size: 14px;
+        margin: 0 10px;
+      }
+
+      .container {
+        width: 90%;
+        padding: 20px;
+      }
+
+      footer {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <img src="/handsome.png" alt="Profile Picture">
+    <h1>Prabhat Shrestha</h1>
+    <p>Full-Stack Web Developer | IT Major | Cloud Computing Enthusiast</p>
+    <p>Born: June 2, 1999</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+  </nav>
+
+  <!-- Main Content Section -->
+  <div class="container">
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a web developer with a focus on full-stack technologies (MERN Stack). I'm passionate about creating solutions
+        that matter, whether it's optimizing systems, solving societal problems, or diving into the world of cloud computing
+        and security. I'm constantly learning new tools and frameworks to stay on top of this ever-evolving field.
+      </p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <p><strong>George Mason University</strong> (Graduating 2025)<br>
+        Major: Information Technology (Concentration in Cloud Computing)</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Full-Stack Development (MERN Stack)</li>
+        <li>Cloud Computing (AWS)</li>
+        <li>Database Management (MongoDB, PostgreSQL)</li>
+        <li>Frontend Development (React.js, HTML, CSS, JavaScript)</li>
+        <li>Backend Development (Node.js, Express.js)</li>
+        <li>Version Control (Git, GitHub)</li>
+        <li>UI/UX Design (Adobe XD, Figma)</li>
+      </ul>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="section experience">
+      <h2>Work Experience</h2>
+      <p><strong>Intern, Web Developer</strong> | XYZ Tech Solutions | 2024 - Present</p>
+      <ul>
+        <li>Developed and maintained web applications using React.js, Node.js, and MongoDB.</li>
+        <li>Collaborated with cross-functional teams to design and implement new features.</li>
+        <li>Worked on cloud-based solutions using AWS for scalable infrastructure.</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a> | <a href="https://linkedin.com/in/yourname" target="_blank">LinkedIn</a></p>
+  </footer>
+
+</body>
+</html>
